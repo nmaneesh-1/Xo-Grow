@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css  style -->
+    <link rel="stylesheet" href="./index.css" />
+    <!-- icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <nav class="main-nav">
+      <div class="logo">
+        <img src="images/logo.png" alt="Ox Digital Lab" />
+      </div>
+      <div class="nav-links">
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#why-us">Earn With Xo Grow</a></li>
+          <li><a href="#xo-grow">Why Xo Grow</a></li>
+          <li><a href="#contact-us">Fqa</a></li>
+        </ul>
+      </div>
+      <div class="cta-button">
+        <button class="btn btn-primary">Call Now</button>
+      </div>
+      <button class="menu-toggle">
+        <ion-icon name="menu-outline" class="menu-open-icon"></ion-icon>
+      </button>
+      <button class="close-toggle">
+        <ion-icon name="close-outline" class="menu-close-icon"></ion-icon>
+      </button>
+    </nav>
+    <!-- Hero section -->
+    <section id="home" class="hero-section">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 320">
+        <path
+          fill="#0099ff"
+          fill-opacity="1"
+          d="M0,256L21.8,234.7C43.6,213,87,171,131,133.3C174.5,96,218,64,262,74.7C305.5,85,349,139,393,144C436.4,149,480,107,524,85.3C567.3,64,611,64,655,64C698.2,64,742,64,785,85.3C829.1,107,873,149,916,154.7C960,160,1004,128,1047,144C1090.9,160,1135,224,1178,218.7C1221.8,213,1265,139,1309,138.7C1352.7,139,1396,213,1418,250.7L1440,288L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"
+        ></path>
+      </svg> -->
+      <img src="./images/wave (2).svg" alt="waves images" class="top-waves" />
+      <h1 class="hero-title">Grow Online with Xo Grow</h1>
+      <h4 class="hero-subtitle">Simple Solutions for Business & Students</h4>
+      <h2 class="hero-description">
+        Connect. Build. Earn. Xo Grow links businesses with students for easy
+        web success.
+      </h2>
+      <button class="btn btn-primary btn-large">Call Now</button>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0099ff"
+          fill-opacity="1"
+          d="M0,64L21.8,85.3C43.6,107,87,149,131,165.3C174.5,181,218,171,262,176C305.5,181,349,203,393,197.3C436.4,192,480,160,524,154.7C567.3,149,611,171,655,186.7C698.2,203,742,213,785,229.3C829.1,245,873,267,916,261.3C960,256,1004,224,1047,197.3C1090.9,171,1135,149,1178,154.7C1221.8,160,1265,192,1309,176C1352.7,160,1396,96,1418,64L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+        ></path>
+      </svg> -->
+      <img src="./images/wave (1).svg" alt="waves image" class="bottom-waves" />
+    </section>
+    <!-- earn in xo grow four steps -->
+    <section class="earn-in-foursteps">
+      <h2 class="section-title">Earn with XO Grow in Four Easy Steps</h2>
+
+      <div class="timeline">
+        <!-- Step 1 -->
+        <div class="timeline-item">
+          <div class="timeline-step step-1-bg">Step 1</div>
+          <div class="timeline-icon step-1-bg">
+            <ion-icon name="person-add-outline"></ion-icon>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Sign-Up</h3>
+            <p class="timeline-text">
+              Create your account in minutes and get started on your earning
+              journey with XO Grow. Our simple registration process requires
+              minimal information to get you up and running quickly.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-item">
+          <div class="timeline-step step-2-bg">Step 2</div>
+          <div class="timeline-icon step-2-bg">
+            <ion-icon name="share-social-outline"></ion-icon>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Refer</h3>
+            <p class="timeline-text">
+              Share your unique referral link with friends, family, and across
+              your social networks. Each successful referral adds to your
+              earnings and helps grow your network.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-item">
+          <div class="timeline-step step-3-bg">Step 3</div>
+          <div class="timeline-icon step-3-bg">
+            <ion-icon name="notifications-outline"></ion-icon>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Notified in Dashboard</h3>
+            <p class="timeline-text">
+              Track your progress in real-time through your personalized
+              dashboard. Get notifications when new referrals join or when your
+              earnings update.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-item">
+          <div class="timeline-step step-4-bg">Step 4</div>
+          <div class="timeline-icon step-4-bg">
+            <ion-icon name="wallet-outline"></ion-icon>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Withdraw Your Earnings</h3>
+            <p class="timeline-text">
+              Cash out your earnings through multiple payment options. Fast and
+              secure withdrawals make it easy to enjoy the rewards of your
+              referral efforts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why Choose Us Section -->
+    <section id="why-xo-grow" class="why-choose-us">
+      <h2 class="section-title">Why to Choose Us?</h2>
+      <div class="features-grid">
+        <!-- Card 1: Easy to Use Dashboard -->
+        <div class="feature-card">
+          <ion-icon name="desktop-outline" class="feature-icon"></ion-icon>
+          <h3 class="feature-title">Easy to Use Dashboard</h3>
+          <p class="feature-description">
+            Manage your growth effortlessly with our intuitive dashboard,
+            designed for simplicity and efficiency.
+          </p>
+        </div>
+
+        <!-- Card 2: Fast Payout -->
+        <div class="feature-card">
+          <ion-icon name="rocket-outline" class="feature-icon"></ion-icon>
+          <h3 class="feature-title">Fast Payout</h3>
+          <p class="feature-description">
+            Receive your earnings quickly with our streamlined payout process,
+            ensuring you get paid on time.
+          </p>
+        </div>
+
+        <!-- Card 3: High Commission -->
+        <div class="feature-card">
+          <ion-icon name="cash-outline" class="feature-icon"></ion-icon>
+          <h3 class="feature-title">High Commission</h3>
+          <p class="feature-description">
+            Earn more with our competitive commission rates, rewarding you
+            generously for your referrals.
+          </p>
+        </div>
+
+        <!-- Card 4: No Hidden Fees -->
+        <div class="feature-card">
+          <ion-icon
+            name="shield-checkmark-outline"
+            class="feature-icon"
+          ></ion-icon>
+          <h3 class="feature-title">No Hidden Fees</h3>
+          <p class="feature-description">
+            Enjoy full transparency with no hidden fees—what you earn is what
+            you get, every time.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="div-1">
+        <div class="img-fqa">
+          <img src="./images/FAQs-rafiki.svg" alt="fqa image" />
+        </div>
+        <div class="accordion" id="faqAccordion">
+          <!-- Question 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                How do I refer a business?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                To refer a business, log into your Xo Grow dashboard and
+                navigate to the "Refer & Earn" section. There, you'll find your
+                unique referral link. Share this link with the business via
+                email, social media, or any preferred channel. Once they sign up
+                using your link and meet the eligibility criteria, you'll earn a
+                commission.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How and when do I get paid?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                You get paid once your earnings reach the minimum payout
+                threshold of $50. Payments are processed on the 1st and 15th of
+                each month. You can choose to receive your earnings via bank
+                transfer, PayPal, or other available methods, depending on your
+                region. You'll receive a notification in your dashboard when
+                your payment is processed.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Is there any limit on how much I can earn?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                No, there is no limit on how much you can earn with Xo Grow. The
+                more businesses you refer, the more you earn. Our high
+                commission rates ensure that your earnings grow with each
+                successful referral, allowing you to maximize your income
+                potential without any caps.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action Section -->
+    <section id="cta" class="cta-section">
+      <h2 class="section-title">Call to Action</h2>
+      <h3 class="cta-heading">Are you ready to start earning?</h3>
+      <a href="#" class="cta-btn">Join with Xo Grow Now</a>
+    </section>
+    <!-- Footer Section -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <!-- Brand & Social -->
+        <div class="footer-branding">
+          <div class="footer-logo-wrap">
+            <img
+              src="images/logo.png"
+              alt="Xo Digital Lab Logo"
+              class="footer-logo"
+            />
+          </div>
+          <p class="footer-tagline">
+            We build stunning websites and empower businesses with Xo Grow.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <img
+                src="./images/icons8-facebook.svg"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </a>
+            <a href="#" class="social-link">
+              <img
+                src="images/icons8-x (1).svg"
+                alt="Twitter"
+                class="social-icon"
+              />
+            </a>
+            <a href="#" class="social-link">
+              <img
+                src="images/icons8-instagram.svg"
+                alt="Instagram"
+                class="social-icon"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-navigation">
+          <h4 class="footer-heading">comapny</h4>
+          <ul class="footer-menu">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#why-us" class="footer-link">Earn with Xo Grow</a></li>
+            <li><a href="#ox-grow" class="footer-link">Why Xo Grow</a></li>
+            <li><a href="#contact-us" class="footer-link">Fqa</a></li>
+          </ul>
+        </div>
+        <!-- Legal -->
+        <div class="footer-navigation">
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-menu">
+            <li>
+              <a href="privacy-policy.html" class="footer-link"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="terms.html" class="footer-link">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+        <!-- footer image -->
+        <div class="footer-image">
+          <img
+            src="./images/Live collaboration-rafiki.svg"
+            alt="image"
+            class="footer-image"
+          />
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025 Xo Digital Lab. All Rights Reserved.
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
