@@ -38,9 +38,9 @@ section {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
-.logo p {
+.logo .logo-text {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -48,9 +48,9 @@ section {
   margin: 0px;
 }
 .logo-img {
-  display: inline;
   height: 55px;
   width: 55px;
+  object-fit: contain;
 }
 .nav-menu li a {
   text-decoration: none;
@@ -610,10 +610,6 @@ ion-icon {
   }
 }
 @media (max-width: 426px) {
-  .timeline-item {
-    display: block;
-    padding: 10px;
-  }
   .step-1-bg {
     background-color: #0070e0; /* Primary blue */
     width: fit-content;
@@ -654,5 +650,10 @@ ion-icon {
   }
   .accordion {
     width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .timeline-step {
+    margin-bottom: 25px;
   }
 }
