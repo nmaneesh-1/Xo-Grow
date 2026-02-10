@@ -35,6 +35,23 @@ section {
   list-style: none;
   margin-bottom: 0px;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo p {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #0a85f8;
+  margin: 0px;
+}
+.logo-img {
+  display: inline;
+  height: 55px;
+  width: 55px;
+}
 .nav-menu li a {
   text-decoration: none;
   font-size: 20px;
@@ -44,7 +61,6 @@ section {
 .nav-links a:hover {
   color: #1b56fd; /* Secondary blue on hover */
 }
-
 .btn-primary {
   background: #0070e0; /* Primary blue */
   color: #ffffff;
@@ -54,7 +70,9 @@ section {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.2s ease, background 0.3s ease;
+  transition:
+    transform 0.2s ease,
+    background 0.3s ease;
 }
 
 .btn-primary:hover {
@@ -329,7 +347,9 @@ ion-icon {
   border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 .cta-btn:hover {
